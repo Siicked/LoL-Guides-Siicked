@@ -8,9 +8,14 @@
 }
 
 .img1 {
-    height: 100px;  
+    height: 80px;  
 }
 .sectionfooter {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+}
+
+.buenas {
+    display: flex;
+    justify-content: space-around;
 }
