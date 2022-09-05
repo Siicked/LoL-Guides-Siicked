@@ -1,3 +1,16 @@
-header {
-    background-color: red;
+.nashe:hover {
+    color: blueviolet;
+    background-color: black;
+}
+
+.texto {
+    
+}
+
+.img1 {
+    height: 100px;  
+}
+.sectionfooter {
+    display: flex;
+    justify-content: space-between;
 }
