@@ -1,10 +1,14 @@
 .nashe:hover {
     color: blueviolet;
     background-color: black;
+    transition: color 0.5s;
+    transform: scale(1.05);
 }
-
-.texto {
-    
+.nashe {
+    transition: color 0.5s;
+}
+.nashe:active {
+    text-decoration: underline;
 }
 
 .img1 {
@@ -19,4 +23,21 @@
     display: flex;
     justify-content: space-around;
 }
+
+header section nav a::before {
+    content: "\2794";
+    color: blueviolet;
+    border: 15px;
+}
+header section nav a:active {
+    text-decoration: underline;
+}
+
+.card:hover {
+    transform: scale(0.9);
+}
+
+
+
+
 
