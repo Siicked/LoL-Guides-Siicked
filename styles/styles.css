@@ -24,6 +24,11 @@
     justify-content: space-around;
 }
 
+
+
+.card:hover {
+    transform: scale(0.9);
+}
 header section nav a::before {
     content: "\2794";
     color: blueviolet;
@@ -32,11 +37,6 @@ header section nav a::before {
 header section nav a:active {
     text-decoration: underline;
 }
-
-.card:hover {
-    transform: scale(0.9);
-}
-
 
 
 
