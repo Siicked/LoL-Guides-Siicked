@@ -1,0 +1,41 @@
+.nashe {
+    transition: color 0.5s;
+
+&:hover {
+    color: blueviolet;
+    background-color: black;
+    @extend .nashe;
+    transform: scale(1.05);
+}
+&:active {
+    text-decoration: underline;
+
+}
+
+.img1 {
+    height: 80px;  
+}
+.sectionfooter {
+    display: flex;
+    justify-content: space-around;
+}
+
+.buenas {
+    @extend .sectionfooter;
+}
+
+.card:hover {
+    transform: scale(0.9);
+}
+header section nav a::before {
+    content: "\2794";
+    color: blueviolet;
+    border: 15px;
+
+&:active {
+    text-decoration: underline;
+}
+}
+}
+
+

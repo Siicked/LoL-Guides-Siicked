@@ -1,0 +1,21 @@
+.nashe, .nashe:hover {
+  transition: color 0.5s; }
+  .nashe:hover {
+    color: blueviolet;
+    background-color: black;
+    transform: scale(1.05); }
+  .nashe:active {
+    text-decoration: underline; }
+  .nashe .img1 {
+    height: 80px; }
+  .nashe .sectionfooter, .nashe .buenas {
+    display: flex;
+    justify-content: space-around; }
+  .nashe .card:hover {
+    transform: scale(0.9); }
+  .nashe header section nav a::before, .nashe:hover header section nav a::before {
+    content: "\2794";
+    color: blueviolet;
+    border: 15px; }
+    .nashe header section nav a::before:active {
+      text-decoration: underline; }
