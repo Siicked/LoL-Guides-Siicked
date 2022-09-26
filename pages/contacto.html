@@ -39,37 +39,47 @@
         </section>
     </header>
     <main>
-        <section class="text-white text-center">
-            <h2 class="mt-5 pt-5">¿ Quieres ponerte en contacto ?</h2>
-            <h3 class="mt-2 pt-2">Envianos un mensaje !</h3>
-        </section>
-        <div class="container-fluid text-center text-white">
-            <div class="row">
-                <div class="col-6 col-sm-4 mt-5 pt-5 ms-3">
-                    <div class="d-grid gap-2">
-                        <input class="btn btn-primary bg-dark nashe" type="search submit" placeholder="Nombre" aria-label="Search"></search>
-                        <input class="btn btn-primary bg-dark nashe mt-3" type="search submit" placeholder="E-mail" aria-label="Search"></search>
+        <section class="text-white ps-5">
+            <h2 class="mt-5 pt-5 text-center ">¿Quieres ponerte en contacto?</h2>
+            <p class="mt-0 pt-2 fs-2 text-center">Envianos un mensaje luego de rellenar el formulario !</p>
+            <div class="container">
+                <form class="row" action="">
+                    <div class="col-6 pt-5 mt-5">
+                        <input class="form-control nashe" id="emailInput" placeholder="eMail" type="email">
+                    </div>
+                    <div class="col-6 pt-5 mt-5">
+                        <input class="form-control nashe" id="Usuario/Nombre" placeholder="Usuario" type="text">
+                    </div>
+                    <div class="col-12 pt-3">
+                        <input class="form-control nashe" type="text" id="Asunto" placeholder="Asunto">
+                    </div>
+                    <div class="col-6 pt-3">
+                        <input class="form-control nashe" type="text" id="telefono" placeholder="Telefono">
+                    </div>
+                    <div class="col-3 pt-3">
+                        <input class="form-control nashe" type="text" id="Direccion" placeholder="Direccion">
+                    </div>
+                    <div class="col-3 pt-3">
+                        <input class="form-control nashe" type="text" id="codigo postal" placeholder="Cod. Postal">
+                    </div>
+                    <div class="col-12 pt-3 ms-4">
+                        <div class="form-check">
+                        <input type="checkbox" id="terminos" class="form-check-input">
+                        <label for="terminos" class="form-check-label">He leído bien la política de la página</label>
+                    </div>
+                    <div class="col-12 pt-3">
+                        <button type="submit" class="btn btn-primary">
+                            Enviar!
+                        </button>
                     </div>
                 </div>
-                <div class="col-6 col-sm-4 mt-5 pt-5">
-                    <section class="d-grid gap-2">
-                    <input class="btn btn-primary bg-dark nashe" type="search submit" placeholder="Asunto" aria-label="Search"></search>
-                    <input class="btn btn-primary bg-dark nashe mt-3" type="search submit" placeholder="Tu mensaje" aria-label="Search"></search>
-                </div>
-                <div class="col-6 col-sm-4 row">
-                    <div class="card text-center bg-dark mt-5 ms-2">
-                        <div class="card-header">
-                            CHAT EN VIVO
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title">CHEATEA CON UNO DE NUESTROS OPERADORES</h5>
-                            <p class="card-text">ATENCION 24/7</p>
-                            <a href="#" class="btn btn-primary nashe">IR AHORA !</a>
-                        </div>
-                        <div class="card-footer text-muted">
-                        </div>
-                    </div>
-                </div>
+                </form>
+
+
+
+
+
+            </div>
         </section>
     </main>
     <footer> <hr>
@@ -82,3 +92,4 @@
     </footer>
 </body>
 </html>
+

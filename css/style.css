@@ -42,3 +42,8 @@ header section nav a:active {
     text-decoration: underline; 
 }
 
+@media screen (min-width:320px) {
+    .card-body {
+        display: block;
+    }
+}
